@@ -1,28 +1,27 @@
-INTEGRATECH-UPH
+# INTEGRATECH-UPH
 
-Plataforma Integrada de Automatización, Inspección Operativa
-y Asistencia Tecnológica de la UPH Danlí.
+**Plataforma Integrada de Automatización, Inspección Operativa y Asistencia Tecnológica de la UPH Danlí**
 
-REQUISITOS
-- Python 3.11 o superior
-- Pygame
-- Pandas
-- Scikit-learn
+> Un agente inteligente, múltiples soluciones.
 
-INSTALACIÓN
-1. Descomprimir el proyecto.
-2. Abrir una terminal en la carpeta.
-3. Ejecutar: pip install -r requirements.txt
-4. Ejecutar: python main.py
+Esta carpeta contiene únicamente la estructura inicial del proyecto. Los archivos incluyen comentarios `TODO`; todavía no contienen el programa completo.
 
-CONTROLES
-- Clic izquierdo: seleccionar opciones.
-- Barra espaciadora: pausar.
-- Tecla R: reiniciar.
-- Tecla O: agregar obstáculo.
-- Tecla ESC: regresar al menú.
+## Tecnologías
 
-INTEGRANTES
-- Jocsan Yair Zelaya Figueroa
-- Jose Gustavo Mejía Torres
-- Andrea Celeste Cubas Rodriguez
+- HTML5
+- CSS3
+- JavaScript
+- Canvas de HTML
+- JSON
+- Visual Studio Code
+- GitHub Pages
+
+## Ramas
+
+- `main`: versión publicada.
+- `develop`: integración de avances.
+- `feature/interfaz-integracion`: integrante 1.
+- `feature/planificacion-robot`: integrante 2.
+- `feature/aprendizaje-misiones`: integrante 3.
+
+Consultar `DIVISION-DEL-TRABAJO.md` antes de comenzar.
