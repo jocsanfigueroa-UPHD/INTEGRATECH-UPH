@@ -10,7 +10,7 @@
 - Administrar GitHub, revisar Pull Requests y configurar GitHub Pages.
 - Organizar README, evidencias y entrega final.
 
-## Integrante 2: planificación y robot
+## Integrante 2: Andrea Celeste Cubas Rodriguez planificación y robot
 
 **Rama:** `feature/planificacion-robot`
 
@@ -20,7 +20,7 @@
 - Programar obstáculos y replanificación.
 - Preparar pruebas de rutas.
 
-## Integrante 3: aprendizaje y misiones
+## Integrante 3: Jose Mejia TOrres aprendizaje y misiones
 
 **Rama:** `feature/aprendizaje-misiones`
 
