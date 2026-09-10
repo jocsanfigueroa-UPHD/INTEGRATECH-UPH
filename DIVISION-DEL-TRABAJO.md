@@ -1,43 +1,42 @@
 # División del trabajo
 
-## Integrante 1: Jocsan Yair Zelaya Figueroa — coordinador
+## Integrante 1: Jocsan Yair Zelaya Figueroa
+Rol: coordinador, interfaz e integración.
+Rama: feature/interfaz-integracion.
 
-**Rama:** `feature/interfaz-integracion`
-
-- Crear `index.html` y `css/styles.css`.
+Responsabilidades:
+- Crear la interfaz principal y el estilo institucional.
 - Programar menús, controles, simulador y panel de estado.
-- Integrar los módulos de los compañeros.
-- Administrar GitHub, revisar Pull Requests y configurar GitHub Pages.
-- Organizar README, evidencias y entrega final.
+- Integrar todos los módulos del proyecto.
+- Administrar GitHub y configuración de Pages.
+- Revisión de pull requests y documentación final.
 
-## Integrante 2: planificación y robot
+## Integrante 2: Andrea Celeste Cubas Rodríguez
+Rol: planificación y robot.
+Rama: feature/planificacion-robot.
 
-**Rama:** `feature/planificacion-robot`
-
-- Programar posición, movimientos, percepción y acciones del robot.
+Responsabilidades:
+- Programar posición, movimientos y percepción del robot.
 - Crear el mapa en cuadrícula.
-- Implementar A*, heurística y costos.
-- Programar obstáculos y replanificación.
+- Implementar A*, costos y heurística Manhattan.
+- Gestionar obstáculo y replanificación.
 - Preparar pruebas de rutas.
 
-## Integrante 3: aprendizaje y misiones
+## Integrante 3: Jose Mejia Torres
+Rol: aprendizaje y misiones.
+Rama: feature/aprendizaje-misiones.
 
-**Rama:** `feature/aprendizaje-misiones`
+Responsabilidades:
+- Generar datos JSON para cada módulo.
+- Implementar el árbol de decisión.
+- Entrenar y clasificar casos.
+- Programar las cinco misiones y prioridades.
+- Evaluar resultados inductivos y decisiones del agente.
 
-- Crear los cinco conjuntos de datos JSON.
-- Implementar entrenamiento, árbol de decisión y clasificación.
-- Programar la lógica de las cinco misiones.
-- Conectar las predicciones con prioridades y objetivos.
-- Evaluar los resultados inductivos.
+## Reglas de GitHub
 
-## Trabajo compartido
-
-- Integración de aprendizaje, planificación y robótica.
-- Pruebas y corrección de errores.
-- Informe técnico, presentación y evidencias.
-- Preparación de la defensa.
-- Comprensión de todo el código.
-
-## Regla de integración
-
-Cada integrante trabaja en su rama y crea un Pull Request hacia `develop`. El coordinador revisa los cambios. La rama `main` se actualiza solamente cuando la versión integrada funciona correctamente.
+- Trabajar en ramas feature y fusionar hacia develop.
+- No editar directamente main.
+- Publicar solo cuando todo funcione correctamente.
+- Mantener commits pequeños y descriptivos.
+- Resolver conflictos sin sobrescribir trabajo válido.

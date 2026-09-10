@@ -1,1 +1,56 @@
-[]
+[
+    {
+        "id": 1,
+        "equipo": "Computadora 1",
+        "procesador": "Intel Core i5",
+        "ram": 8,
+        "almacenamiento": 256,
+        "estado": "Disponible",
+        "horas_uso": 1200
+    },
+    {
+        "id": 2,
+        "equipo": "Computadora 2",
+        "procesador": "Intel Core i3",
+        "ram": 4,
+        "almacenamiento": 128,
+        "estado": "Disponible",
+        "horas_uso": 2800
+    },
+    {
+        "id": 3,
+        "equipo": "Computadora 3",
+        "procesador": "Intel Core i5",
+        "ram": 8,
+        "almacenamiento": 512,
+        "estado": "Mantenimiento",
+        "horas_uso": 3500
+    },
+    {
+        "id": 4,
+        "equipo": "Computadora 4",
+        "procesador": "AMD Ryzen 5",
+        "ram": 16,
+        "almacenamiento": 512,
+        "estado": "Disponible",
+        "horas_uso": 900
+    },
+    {
+        "id": 5,
+        "equipo": "Computadora 5",
+        "procesador": "Intel Core i3",
+        "ram": 4,
+        "almacenamiento": 128,
+        "estado": "Disponible",
+        "horas_uso": 3100
+    },
+    {
+        "id": 6,
+        "equipo": "Computadora 6",
+        "procesador": "Intel Core i7",
+        "ram": 16,
+        "almacenamiento": 1000,
+        "estado": "Disponible",
+        "horas_uso": 700
+    }
+]

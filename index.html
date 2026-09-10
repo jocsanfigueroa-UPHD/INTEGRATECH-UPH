@@ -1,2 +1,120 @@
-<!-- TODO Integrante 1: crear la interfaz principal de INTEGRATECH-UPH. -->
-<!-- Debe enlazar css/styles.css y js/app.js como módulo. -->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INTEGRATECH-UPH</title>
+    <meta
+      name="description"
+      content="Plataforma integrada de automatización, inspección operativa y asistencia tecnológica de la UPH Danlí."
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand-block">
+          <div class="brand-mark">
+            <img src="./assets/img/logo.jpg" alt="Universidad Politécnica de Honduras" />
+          </div>
+          <div>
+            <p class="eyebrow">Centro de Control Operativo UPH</p>
+            <h1>INTEGRATECH-UPH</h1>
+          </div>
+        </div>
+
+        <div class="status-cluster">
+          <div class="status-pill online">
+            <span class="dot"></span>
+            Agente ITA-01 en línea UPH Danlí
+          </div>
+          <div class="status-pill info" id="plannerStatus">Planificador: listo</div>
+          <div class="status-pill info" id="modelStatus">Modelo: entrenado</div>
+        </div>
+      </header>
+
+      <main class="layout">
+        <aside class="sidebar panel">
+          <section class="panel-section">
+            <h2>Controles</h2>
+            <div class="button-grid">
+              <button data-action="analyze">Analizar condiciones</button>
+              <button data-action="plan">Generar plan</button>
+              <button data-action="execute">Ejecutar operación</button>
+              <button data-action="pause">Pausar</button>
+              <button data-action="continue">Continuar</button>
+              <button data-action="reset">Restablecer</button>
+              <button data-action="obstacle">Registrar obstáculo</button>
+              <button data-action="office">Cerrar oficina</button>
+              <button data-action="traffic">Simular congestión</button>
+              <button data-action="failure">Simular falla</button>
+              <button data-action="objective">Cambiar objetivo</button>
+            </div>
+          </section>
+
+          <section class="panel-section">
+            <h2>Misiones</h2>
+            <div class="mission-menu" id="missionMenu"></div>
+          </section>
+
+          <section class="panel-section">
+            <h2>Resumen</h2>
+            <ul class="metrics-list">
+              <li><span>Misión</span><strong id="missionName">Biblioteca</strong></li>
+              <li><span>Estado</span><strong id="stateName">Listo</strong></li>
+              <li><span>Objetivo</span><strong id="objectiveText">-</strong></li>
+              <li><span>Acciones</span><strong id="actionCount">0</strong></li>
+              <li><span>Costo</span><strong id="costTotal">0</strong></li>
+              <li><span>Replanificaciones</span><strong id="replanCount">0</strong></li>
+            </ul>
+          </section>
+        </aside>
+
+        <section class="main-panel panel">
+          <div class="canvas-header">
+            <div>
+              <p class="eyebrow">Plano técnico del campus</p>
+              <h2>Campus UPH Danlí</h2>
+            </div>
+            <div class="legend">
+              <span><i class="legend-swatch floor"></i> Pasillo</span>
+              <span><i class="legend-swatch wall"></i> Pared</span>
+              <span><i class="legend-swatch obstacle"></i> Obstáculo</span>
+              <span><i class="legend-swatch target"></i> Objetivo</span>
+            </div>
+          </div>
+          <canvas id="mapCanvas" width="800" height="520" aria-label="Plano operativo del campus"></canvas>
+        </section>
+      </main>
+
+      <section class="lower-grid">
+        <div class="panel state-panel">
+          <h2>Panel de monitoreo</h2>
+          <div class="state-stack">
+            <div><span>Posición actual</span><strong id="positionText">-</strong></div>
+            <div><span>Clasificación</span><strong id="classificationText">Sin análisis</strong></div>
+            <div><span>Confianza</span><strong id="confidenceText">0%</strong></div>
+            <div><span>Ruta planificada</span><strong id="pathText">-</strong></div>
+            <div><span>Ruta recorrida</span><strong id="historyText">-</strong></div>
+          </div>
+        </div>
+
+        <div class="panel state-panel">
+          <h2>Ciclo percepción, decisión y acción</h2>
+          <div class="cycle-box">
+            <div><span>Percepción</span><p id="perceptionText">Esperando observación</p></div>
+            <div><span>Decisión</span><p id="decisionText">Sin decisión</p></div>
+            <div><span>Acción</span><p id="actionText">Sin acción</p></div>
+          </div>
+        </div>
+
+        <div class="panel state-panel">
+          <h2>Bitácora operativa</h2>
+          <ul class="log-list" id="logList"></ul>
+        </div>
+      </section>
+    </div>
+
+    <script type="module" src="./js/bootstrap.js"></script>
+  </body>
+</html>

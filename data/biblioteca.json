@@ -1,1 +1,222 @@
-[]
+[
+  {
+    "id": 1,
+    "titulo": "Introducción a los Sistemas Operativos",
+    "autor": "Andrew S. Tanenbaum",
+    "anio": 2015,
+    "genero": "Sistemas Operativos",
+    "paginas": 720,
+    "nivel": "Universitario",
+    "disponible": true,
+    "clasificacion": "Tecnología"
+  },
+  {
+    "id": 2,
+    "titulo": "Cien años de soledad",
+    "autor": "Gabriel García Márquez",
+    "anio": 1967,
+    "genero": "Novela",
+    "paginas": 417,
+    "nivel": "General",
+    "disponible": true,
+    "clasificacion": "Literatura"
+  },
+  {
+    "id": 3,
+    "titulo": "Breve historia del tiempo",
+    "autor": "Stephen Hawking",
+    "anio": 1988,
+    "genero": "Astronomía",
+    "paginas": 256,
+    "nivel": "Universitario",
+    "disponible": true,
+    "clasificacion": "Ciencia"
+  },
+  {
+    "id": 4,
+    "titulo": "Historia de Honduras",
+    "autor": "Longino Becerra",
+    "anio": 1983,
+    "genero": "Historia Nacional",
+    "paginas": 350,
+    "nivel": "Universitario",
+    "disponible": true,
+    "clasificacion": "Historia"
+  },
+  {
+    "id": 5,
+    "titulo": "Pedagogía del oprimido",
+    "autor": "Paulo Freire",
+    "anio": 1970,
+    "genero": "Pedagogía",
+    "paginas": 250,
+    "nivel": "Universitario",
+    "disponible": true,
+    "clasificacion": "Educación"
+  },
+  {
+    "id": 6,
+    "titulo": "Redes de Computadoras",
+    "autor": "James Kurose",
+    "anio": 2017,
+    "genero": "Redes",
+    "paginas": 864,
+    "nivel": "Universitario",
+    "disponible": true,
+    "clasificacion": "Tecnología"
+  },
+  {
+    "id": 7,
+    "titulo": "Don Quijote de la Mancha",
+    "autor": "Miguel de Cervantes",
+    "anio": 1605,
+    "genero": "Novela Clásica",
+    "paginas": 863,
+    "nivel": "General",
+    "disponible": true,
+    "clasificacion": "Literatura"
+  },
+  {
+    "id": 8,
+    "titulo": "El origen de las especies",
+    "autor": "Charles Darwin",
+    "anio": 1859,
+    "genero": "Biología",
+    "paginas": 502,
+    "nivel": "Universitario",
+    "disponible": true,
+    "clasificacion": "Ciencia"
+  },
+  {
+    "id": 9,
+    "titulo": "La Segunda Guerra Mundial",
+    "autor": "Antony Beevor",
+    "anio": 2012,
+    "genero": "Historia Militar",
+    "paginas": 1104,
+    "nivel": "General",
+    "disponible": true,
+    "clasificacion": "Historia"
+  },
+  {
+    "id": 10,
+    "titulo": "Didáctica general",
+    "autor": "Antoni Zabala",
+    "anio": 2007,
+    "genero": "Didáctica",
+    "paginas": 250,
+    "nivel": "Universitario",
+    "disponible": true,
+    "clasificacion": "Educación"
+  },
+  {
+    "id": 11,
+    "titulo": "Inteligencia Artificial: Un enfoque moderno",
+    "autor": "Stuart Russell",
+    "anio": 2021,
+    "genero": "Inteligencia Artificial",
+    "paginas": 1136,
+    "nivel": "Universitario",
+    "disponible": true,
+    "clasificacion": "Tecnología"
+  },
+  {
+    "id": 12,
+    "titulo": "La casa de los espíritus",
+    "autor": "Isabel Allende",
+    "anio": 1982,
+    "genero": "Novela",
+    "paginas": 448,
+    "nivel": "General",
+    "disponible": true,
+    "clasificacion": "Literatura"
+  },
+  {
+    "id": 13,
+    "titulo": "Cosmos",
+    "autor": "Carl Sagan",
+    "anio": 1980,
+    "genero": "Astronomía",
+    "paginas": 384,
+    "nivel": "General",
+    "disponible": true,
+    "clasificacion": "Ciencia"
+  },
+  {
+    "id": 14,
+    "titulo": "Historia del mundo moderno",
+    "autor": "R. R. Palmer",
+    "anio": 2014,
+    "genero": "Historia Universal",
+    "paginas": 900,
+    "nivel": "Universitario",
+    "disponible": true,
+    "clasificacion": "Historia"
+  },
+  {
+    "id": 15,
+    "titulo": "El aprendizaje significativo",
+    "autor": "David Ausubel",
+    "anio": 2002,
+    "genero": "Aprendizaje",
+    "paginas": 320,
+    "nivel": "Universitario",
+    "disponible": true,
+    "clasificacion": "Educación"
+  },
+  {
+    "id": 16,
+    "titulo": "Programación en Java",
+    "autor": "Herbert Schildt",
+    "anio": 2019,
+    "genero": "Programación",
+    "paginas": 1248,
+    "nivel": "Universitario",
+    "disponible": true,
+    "clasificacion": "Tecnología"
+  },
+  {
+    "id": 17,
+    "titulo": "El principito",
+    "autor": "Antoine de Saint-Exupéry",
+    "anio": 1943,
+    "genero": "Cuento",
+    "paginas": 96,
+    "nivel": "General",
+    "disponible": true,
+    "clasificacion": "Literatura"
+  },
+  {
+    "id": 18,
+    "titulo": "Física universitaria",
+    "autor": "Sears y Zemansky",
+    "anio": 2018,
+    "genero": "Física",
+    "paginas": 1400,
+    "nivel": "Universitario",
+    "disponible": true,
+    "clasificacion": "Ciencia"
+  },
+  {
+    "id": 19,
+    "titulo": "Historia de América Latina",
+    "autor": "John Lynch",
+    "anio": 2006,
+    "genero": "Historia Latinoamericana",
+    "paginas": 500,
+    "nivel": "Universitario",
+    "disponible": true,
+    "clasificacion": "Historia"
+  },
+  {
+    "id": 20,
+    "titulo": "Psicología educativa",
+    "autor": "Anita Woolfolk",
+    "anio": 2010,
+    "genero": "Psicología Educativa",
+    "paginas": 700,
+    "nivel": "Universitario",
+    "disponible": true,
+    "clasificacion": "Educación"
+  }
+]

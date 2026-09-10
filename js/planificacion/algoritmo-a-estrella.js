@@ -1,1 +1,2 @@
-// TODO Integrante 2: implementar A* con f(n) = g(n) + h(n).
+// Archivo de compatibilidad: todas las llamadas usan el planificador corregido.
+export { aStar } from './planificador-a-estrella.js';

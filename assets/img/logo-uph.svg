@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-labelledby="title desc">
+  <title id="title">Logo UPH</title>
+  <desc id="desc">Logotipo azul y amarillo de la Universidad Politécnica de Honduras</desc>
+  <rect width="320" height="220" fill="#ffffff"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="150" font-weight="900" text-anchor="middle" dominant-baseline="middle" stroke="#48c5d4" stroke-width="7" paint-order="stroke fill">
+    <text x="160" y="112" fill="#24206f" letter-spacing="-22">UPH</text>
+  </g>
+  <path d="M105 42v115c0 18 10 28 28 28 16 0 25-10 25-28V42" fill="none" stroke="#24206f" stroke-width="16" stroke-linecap="round"/>
+  <path d="M142 42h34c27 0 43 14 43 38s-16 38-43 38h-13" fill="none" stroke="#f3bc18" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M225 42v143M225 115h48M273 42v143" fill="none" stroke="#24206f" stroke-width="16" stroke-linecap="round"/>
+</svg>

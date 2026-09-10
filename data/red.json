@@ -1,1 +1,50 @@
-[]
+[
+    {
+        "id": 1,
+        "equipo": "Router principal",
+        "ubicacion": "Administracion",
+        "estado": "Activo",
+        "latencia": 18,
+        "perdida_paquetes": 1
+    },
+    {
+        "id": 2,
+        "equipo": "Switch laboratorio",
+        "ubicacion": "Laboratorio de computacion",
+        "estado": "Activo",
+        "latencia": 35,
+        "perdida_paquetes": 3
+    },
+    {
+        "id": 3,
+        "equipo": "Punto de acceso WiFi",
+        "ubicacion": "Biblioteca",
+        "estado": "Activo",
+        "latencia": 85,
+        "perdida_paquetes": 8
+    },
+    {
+        "id": 4,
+        "equipo": "Servidor institucional",
+        "ubicacion": "Centro de datos",
+        "estado": "Activo",
+        "latencia": 120,
+        "perdida_paquetes": 15
+    },
+    {
+        "id": 5,
+        "equipo": "Computadora docente",
+        "ubicacion": "Sala de docentes",
+        "estado": "Inactivo",
+        "latencia": 0,
+        "perdida_paquetes": 100
+    },
+    {
+        "id": 6,
+        "equipo": "Punto de acceso WiFi 2",
+        "ubicacion": "Aulas",
+        "estado": "Activo",
+        "latencia": 42,
+        "perdida_paquetes": 4
+    }
+]

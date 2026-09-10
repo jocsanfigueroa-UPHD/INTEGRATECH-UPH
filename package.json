@@ -1,0 +1,10 @@
+{
+  "name": "integratech-uph",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node tests/prueba-ruta-libre.js && node tests/prueba-obstaculos.js && node tests/prueba-replanificacion.js && node tests/prueba-sin-ruta.js && node tests/prueba-aprendizaje.mjs && node tests/prueba-agente.mjs"
+  }
+}

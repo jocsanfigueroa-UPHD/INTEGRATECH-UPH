@@ -1,1 +1,50 @@
-[]
+[
+    {
+        "id": 1,
+        "nombre": "Ana Lopez",
+        "grado": "Primer grado",
+        "promedio": 88,
+        "tipo_matricula": "Nuevo ingreso",
+        "documentos_completos": true
+    },
+    {
+        "id": 2,
+        "nombre": "Carlos Martinez",
+        "grado": "Segundo grado",
+        "promedio": 65,
+        "tipo_matricula": "Regular",
+        "documentos_completos": true
+    },
+    {
+        "id": 3,
+        "nombre": "Maria Hernandez",
+        "grado": "Tercer grado",
+        "promedio": 82,
+        "tipo_matricula": "Reingreso",
+        "documentos_completos": true
+    },
+    {
+        "id": 4,
+        "nombre": "Jose Ramirez",
+        "grado": "Cuarto grado",
+        "promedio": 91,
+        "tipo_matricula": "Regular",
+        "documentos_completos": false
+    },
+    {
+        "id": 5,
+        "nombre": "Sofia Flores",
+        "grado": "Quinto grado",
+        "promedio": 76,
+        "tipo_matricula": "Regular",
+        "documentos_completos": true
+    },
+    {
+        "id": 6,
+        "nombre": "Daniel Cruz",
+        "grado": "Sexto grado",
+        "promedio": 94,
+        "tipo_matricula": "Nuevo ingreso",
+        "documentos_completos": true
+    }
+]

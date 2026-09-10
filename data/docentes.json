@@ -1,1 +1,32 @@
-[]
+[
+    {
+        "id": 1,
+        "nombre": "Dulce Oliva",
+        "grado": "Primer grado",
+        "especialidad": "Educacion primaria"
+    },
+    {
+        "id": 2,
+        "nombre": "Lorena Ramos",
+        "grado": "Segundo grado",
+        "especialidad": "Educacion primaria"
+    },
+    {
+        "id": 3,
+        "nombre": "Braulio Barahona",
+        "grado": "Tercer grado",
+        "especialidad": "Educacion primaria"
+    },
+    {
+        "id": 4,
+        "nombre": "Miguel Barahona",
+        "grado": "Cuarto grado",
+        "especialidad": "Educacion primaria"
+    },
+    {
+        "id": 5,
+        "nombre": "Mery Medina",
+        "grado": "Quinto grado, Sexto grado",
+        "especialidad": "Educacion primaria"
+    }
+]
