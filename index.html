@@ -49,6 +49,8 @@
               <button data-action="traffic">Simular congestión</button>
               <button data-action="failure">Simular falla</button>
               <button data-action="objective">Cambiar objetivo</button>
+              <button class="button-accent" data-action="inspect">Inspeccionar área</button>
+              <button class="button-accent" data-action="auto-inspect">Ronda automática</button>
             </div>
           </section>
 
@@ -111,6 +113,35 @@
         <div class="panel state-panel">
           <h2>Bitácora operativa</h2>
           <ul class="log-list" id="logList"></ul>
+        </div>
+      </section>
+
+      <section class="operations-grid">
+        <div class="panel inspection-panel">
+          <div class="section-heading">
+            <div><p class="eyebrow dark">Automatización operativa</p><h2>Inspección por área</h2></div>
+            <span class="automation-badge" id="automationStatus">En espera</span>
+          </div>
+          <p class="helper-text">Seleccione el estado de cada punto. El sistema determina la prioridad y solicita asistencia cuando corresponde.</p>
+          <div id="inspectionChecklist" class="inspection-list"></div>
+          <label class="field-label" for="assistanceReason">Observación o motivo de asistencia</label>
+          <textarea id="assistanceReason" rows="2" placeholder="Describa brevemente la incidencia detectada"></textarea>
+          <div class="inspection-actions">
+            <button data-action="inspect">Guardar inspección</button>
+            <button class="secondary-button" data-action="request-assistance">Solicitar asistencia</button>
+            <button class="secondary-button" data-action="enable-notifications">Activar notificaciones</button>
+          </div>
+        </div>
+
+        <div class="panel inspection-panel">
+          <div class="section-heading"><div><p class="eyebrow dark">Atención requerida</p><h2>Notificaciones de asistencia</h2></div><strong id="pendingCount">0 pendientes</strong></div>
+          <div id="notificationBanner" class="notification-banner hidden" role="alert"></div>
+          <ul id="assistanceList" class="assistance-list"><li class="empty-state">No existen solicitudes de asistencia.</li></ul>
+        </div>
+
+        <div class="panel inspection-panel wide">
+          <div class="section-heading"><div><p class="eyebrow dark">Control institucional</p><h2>Últimas inspecciones</h2></div><button class="secondary-button compact" data-action="auto-inspect">Ejecutar ronda completa</button></div>
+          <div class="table-wrap"><table><thead><tr><th>Fecha</th><th>Lugar</th><th>Resultado</th><th>Responsable</th><th>Asistencia</th></tr></thead><tbody id="inspectionHistory"><tr><td colspan="5" class="empty-state">Aún no se han realizado inspecciones.</td></tr></tbody></table></div>
         </div>
       </section>
     </div>

@@ -17,6 +17,8 @@ La aplicación integra planificación basada en inteligencia artificial, aprendi
 - Detectar obstáculos y replanificar la ruta.
 - Clasificar situaciones con un árbol de decisión sencillo.
 - Simular cuatro escenarios de apoyo institucional: biblioteca, matrícula, red y laboratorio.
+- Automatizar inspecciones operativas en cada lugar y clasificar su nivel de atención.
+- Generar notificaciones y solicitudes de asistencia dirigidas al responsable correspondiente.
 - Mostrar una interfaz institucional compatible con GitHub Pages.
 
 ## Tecnologías
@@ -51,14 +53,22 @@ La aplicación integra planificación basada en inteligencia artificial, aprendi
 - Aprendizaje inductivo: árbol de decisión, entrenamiento y clasificación.
 - Misiones: biblioteca, matrícula, red y laboratorio.
 - Interfaz: panel institucional, controls y simulador en canvas.
+- Automatización: listas de verificación, ronda completa, historial y seguimiento de asistencia.
+
+## Automatización de inspecciones y asistencia
+
+Cada misión muestra una lista de verificación específica para su área. El usuario puede registrar cada condición como correcta, en alerta o crítica. El sistema evalúa automáticamente el resultado, guarda la inspección en el dispositivo y genera una solicitud de asistencia cuando existe una incidencia.
+
+La opción **Ronda automática** inspecciona Biblioteca, Matrícula, Red y Laboratorio en una sola operación. Las solicitudes incluyen código, lugar, prioridad y responsable. También pueden marcarse como atendidas. Al activar los permisos del navegador, cada incidencia produce una notificación del sistema además del aviso visible y el registro en la bitácora.
 
 ## Ejecución
 
-Se puede abrir directamente con el navegador:
+Para ejecutarlo:
 
-1. Abrir index.html en el navegador.
-2. O usar Live Server en Visual Studio Code.
-3. Publicar en GitHub Pages.
+1. Abrir la carpeta completa en Visual Studio Code.
+2. Iniciar `index.html` con **Go Live / Live Server**.
+3. También puede ejecutarse con `npm start` y abrir `http://localhost:4173`.
+4. Para uso en línea, publicar la carpeta en GitHub Pages.
 
 No requiere instalación de dependencias ni backend.
 
